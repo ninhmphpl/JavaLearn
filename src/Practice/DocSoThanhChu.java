@@ -53,10 +53,8 @@ public class DocSoThanhChu {
                 string = "fifty-" + unit(units);
                 break;
             case '0':
-                string = unit(units);
-                break;
             case 'f':
-                string = "";
+                string = unit(units);
                 break;
             default:
                 string = unit(units)+"ty" + unit(units);
@@ -65,12 +63,18 @@ public class DocSoThanhChu {
     }
     static String hundereds(char hundered, char dozens, char units){
         String string = "";
-        string = unit(hundered) + " hundred " + dozen(dozens,units);
+        if ( hundered != 'f'){
+            string +=unit(hundered)+ " hundred ";
+        }
+        string += dozen(dozens,units);
         return string;
     }
     static String numberTeen(char number){
         String string2;
         switch (number) {
+            case '0':
+                string2 = "ten";
+                break;
             case '1':
                 string2 = "eleven";
                 break;

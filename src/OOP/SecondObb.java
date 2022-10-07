@@ -1,9 +1,26 @@
 package OOP;
 
+import Array.Array;
+
+import java.util.Arrays;
+
 public class SecondObb {
     public static void main(String[] args) {
-        Opp newObject = new Opp();
-        System.out.println(newObject.x);
-        newObject.sum(20,10);
+        Encapsulation a = new Encapsulation("ninh");
+        System.out.println(a);
+        String b = a.getName();
+
+
+        System.out.println(a.getName());
+        b += "ono";
+        System.out.println(b);
+        System.out.println(a.getName());
+
+
+        System.out.println("=========================");
+        System.out.println(Arrays.toString(a.getArr()));
+        String[] c = a.getArr();
+        c[1] = "123";
+        System.out.println(Arrays.toString(a.getArr()));
     }
 }
