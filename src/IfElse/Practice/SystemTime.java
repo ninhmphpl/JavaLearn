@@ -1,8 +1,7 @@
-package Practice;
+package IfElse.Practice;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
-import java.util.zip.DataFormatException;
 
 public class SystemTime {
     public static void main(String[] args) {

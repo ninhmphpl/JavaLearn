@@ -1,4 +1,4 @@
-package Practice;
+package IfElse.Practice;
 
 import java.util.Scanner;
 

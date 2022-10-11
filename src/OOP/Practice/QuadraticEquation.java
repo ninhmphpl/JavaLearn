@@ -50,7 +50,5 @@ public class QuadraticEquation {
         }else{
             System.out.println("Phuong trinh co 2 nghiem, X1: " + math.getRoot1() + " X2: " + math.getRoot2());
         }
-
-
     }
 }
