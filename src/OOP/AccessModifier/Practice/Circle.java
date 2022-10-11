@@ -1,4 +1,4 @@
-package AccessModifier.Practice;
+package OOP.AccessModifier.Practice;
 
 public class Circle {
     private double radius = 1.0;

@@ -1,4 +1,4 @@
-package AccessModifier.Practice;
+package OOP.AccessModifier.Practice;
 
 public class TestStaticMethod {
     public static void main(String[] args) {

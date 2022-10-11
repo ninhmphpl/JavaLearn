@@ -1,4 +1,4 @@
-package AccessModifier.Practice;
+package OOP.AccessModifier.Practice;
 
 public class Car {
     private String name;
