@@ -31,7 +31,7 @@ public class ProductManager {
     }
 
     public void deleteProduct(int index){
-        for (int i = index ; i < numberProduct; i ++){
+        for (int i = index ; i < numberProduct--; i ++){
             productArray[i] = productArray[i+1];
         }
     }
@@ -42,6 +42,8 @@ public class ProductManager {
             if (product != null){
             System.out.printf("%-30s %-20d %s %n",product.getName(),product.getPrice(),product.getDescription());
 
+        }else{
+                break;
             }
         }
     }
@@ -49,7 +51,7 @@ public class ProductManager {
     public void displayMaxPriceProduct(){
         int maxPrice = 0;
         Product maxPriceProduct = null;
-        for (int i = 0 ; i < productArray.length; i ++){
+        for (int i = 0 ; i < numberProduct; i ++){
             if (productArray[i] != null){
                 if (productArray[i].getPrice() > maxPrice ){
                     maxPrice = productArray[i].getPrice();
