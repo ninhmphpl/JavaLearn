@@ -1,14 +1,13 @@
 package OOP.AccessModifier;
-public class Test{
+public class InnerClass {
     class A{}
     public static class B{}
 }
 
 class Tes2 {
     public static void main(String[] args) {
-        Test a = new Test();
-        Test.A a2 = a.new A();
+        InnerClass.A a = new InnerClass().new A();
 
-        Test.B b = new Test.B();
+        InnerClass.B b = new InnerClass.B();
     }
 }
