@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
 
+import java.util.LinkedList;
 import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -27,7 +28,6 @@ public class SimpleCalculatorTest {
         int first = 1;
         int second = 0;
         int expected = 1;
-
         int result = SimpleCalculator.add(first, second);
         assertEquals(expected, result);
     }
@@ -66,7 +66,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-    @DisplayName("Testing sub 1 - 0")
+//    @DisplayName("Testing sub 1 - 0")
     public void testSub1and0() {
         int first = 1;
         int second = 0;
@@ -77,7 +77,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-    @DisplayName("Testing sub 0 - 1")
+//    @DisplayName("Testing sub 0 - 1")
     public void testSub0and1() {
         int first = 0;
         int second = 1;
