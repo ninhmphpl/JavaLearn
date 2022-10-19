@@ -2,7 +2,7 @@ package Testing.Practice;
 
 public class Triangle {
     public boolean isoscelesTriangle(int a , int b, int c){
-       return (a == b) && (a == c) ;
+       return (a == b) && (a == c);
     }
     public boolean isEquilateralTriangle(int a, int b, int c){
         return (a == c) || (a == b) || (b == c);
