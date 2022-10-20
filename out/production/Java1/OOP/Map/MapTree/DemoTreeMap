@@ -1,0 +1,17 @@
+
+
+add (E node){
+    E tempt
+    if(node.element < element.element){
+       tempt = element.left;
+    }else{
+        tempt = element.right;
+    }
+
+    if (tempt != Null ){
+        add(tempt);
+    }else{
+
+       tempt = node;
+    }
+}

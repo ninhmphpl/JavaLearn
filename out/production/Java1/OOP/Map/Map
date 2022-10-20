@@ -1,0 +1,7 @@
+Method
+
+    vd: Example_1;
+
+    put() : thêm phân tử vào mảng;
+    keySet(): xuất ra 1 Set<E> (Set Array) chứa key trong Hasmap, Set có thể dùng forEach để duyệt qua;
+
