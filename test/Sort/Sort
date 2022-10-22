@@ -1,0 +1,6 @@
+QuickSort: O(nlogn) nhanh nhat hau het cac truong hop, phu thuoc vao phan tu chot
+CounterSort: do phuc tap O(n) phu thuoc vao khoang cach phan tu quyet dinh toc do nhanh hoac cham
+SelectionSort: do phuc tap O(n2), toc do sap xep lau nhat neu co nhieu phan tu
+nhung se nhanh nhat do sap xep 1 mang co do dai duoi 20 phan tu;
+InsertionSort: tốc độ sắp xếp trung bình, phụ thuộc vào mức độ sắp xếp sẵn, nếu mảng được sắp xếp khá chuẩn chỉnh
+thì việc sử dụng Insertion là nhanh nhất.

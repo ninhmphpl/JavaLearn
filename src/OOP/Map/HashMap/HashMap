@@ -1,0 +1,10 @@
+put(key, value): thêm phần tử value vào HashMap tham chiếu theo key
+replace(key, value): thay đổi value tại vị trí key
+remove(key): xóa phần tử theo key
+
+get(key): lấy giá trị value theo key
+keySet(): lấy tất cả các key trong HashMap và trả về duới dạng 1 Set object (Set tương tự như 1 colection)
+values(): lấy tất cả các value trong HasMap và trả về dưới dạng 1 Array
+
+isEmpty(): kiểm tra HashMap có rỗng hay không (Rỗng = true ngược lại false)
+containsKey(key): kiểm tra xem key có tồn tại trong HashMap không, có trả về true, không trả về false
