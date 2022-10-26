@@ -7,7 +7,7 @@ public class __InputStream {
         try{
             FileInputStream fileInputStream = new FileInputStream("API.txt");
             DataInputStream dataInputStream = new DataInputStream(fileInputStream);
-            while (true) {
+            while (dataInputStream.available()>0) {
                 System.out.println(dataInputStream.readInt());
             }
         } catch (IOException e) {

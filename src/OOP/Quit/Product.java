@@ -1,6 +1,8 @@
 package OOP.Quit;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable {
     private String name;
     private int price;
     private String description;
@@ -36,4 +38,12 @@ public class Product {
     }
 
 
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }

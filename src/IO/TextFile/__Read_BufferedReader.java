@@ -10,6 +10,7 @@ public class __Read_BufferedReader {
             File file = new File("read.txt");
             file.createNewFile();
             FileReader fileReader = new FileReader(file);
+            // đọc dữ liệu từ bộ nhớ đệm thông qua FileReader đọc từ File lưu trên bố nhớ
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             System.out.println(bufferedReader.readLine());
             System.out.println(bufferedReader.readLine());
