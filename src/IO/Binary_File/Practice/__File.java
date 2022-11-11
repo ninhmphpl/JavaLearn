@@ -96,7 +96,7 @@ public class __File {
         checkExitsFile(file);
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(object);
-
+        objectOutputStream.close();
     }
 
     public static ArrayList<Object> readObjectFormFile(File file) throws IOException, ClassNotFoundException {
